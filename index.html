@@ -8,13 +8,14 @@
 <body>
   <h1>My first table</h1>
   <main>
-    <table border="5px";> 
+    <table style="border: 2px;"> 
       <thead>
         <tr>
-          <th>PERSONAL INFO </th>
+          <th colspan="2" style="text-align: left;">PERSONAL INFO </th>
+          <th></th>
         </tr>
         <tr style="text-align: left;">
-          <th >Property</th>
+          <th>Property</th>
           <th>Value</th>
         </tr>
       </thead>
@@ -31,9 +32,12 @@
           <td>Email:</td>
           <td>nadia.shutak@gmail.com</td>
         </tr>
+        <tr> 
+          <td rowspan="2">Phone:</td>
+          <td>+38055555551</td>
+        </tr>
         <tr>
-          <td>Phone:</td>
-          <td>+380506671681</td>
+          <td>+38055555552</td>
         </tr>
       </tbody>
     </table>
